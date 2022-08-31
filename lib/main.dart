@@ -23,6 +23,8 @@ class HomeState extends State<Home> {
       } else if (_pessoa < 0) {
         _mensagem = "Pode entrar!";
         _pessoa = 0;
+      } else {
+        _mensagem = "Pode entrar!";
       }
     });
   }
